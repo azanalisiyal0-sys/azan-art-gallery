@@ -1,0 +1,522 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #D8CFC4;
+    padding: 0;
+    margin: 0;
+}
+
+
+div {
+    background: #8B6F47;
+    
+}
+
+header {
+    background: #6E2C2C;
+    color: #F2C6B6;
+    padding-bottom: 5px;
+    margin:0;
+    width: 100%;
+    max-width: 1200px;
+}
+main {
+    margin: auto;
+    width: 90%;
+    max-width: 1200px;
+}
+
+header h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 2px;
+}
+
+header h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2px;
+    padding-bottom: 8px;
+}
+
+nav {
+    color: #F2C6B6; 
+    background: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+nav a {
+    color: #f1baa6;
+    text-decoration: none;
+    margin-right: 20px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #fd9f7d;
+}
+
+footer {
+    background: #6E2C2C;
+    color: #F2C6B6;
+    margin: 0;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.footer {
+    background: #6E2C2C;
+    color: #F2C6B6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 8px;
+    
+}
+
+button {
+    background: #A7B0C0;
+    color: #4A6FA5;
+    transition: 0.3s;
+    border: #4A6FA5;
+    border-radius: 5px;
+    width: 20%;
+    height: auto;
+}
+
+button:hover {
+    background-color: #738fbe;
+    transform: scale(1.1);
+}
+
+.showing {
+    padding: 15px;
+    display: grid;
+    grid-template-columns:
+    repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.divBtn {
+    padding: 8px;
+}
+
+.fade {
+    text-align: center;
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.8s ease,
+    transform 0.8s ease;
+}
+
+.fade.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.footerPara{
+    text-align: center;
+
+}
+
+.section2 {
+    text-align: center;
+    text-decoration: underline;
+}
+.charcoal {
+    color: #1F1F1F;
+}
+
+.digital {
+    padding: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.pencil {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 8px;
+
+}
+
+.filter-btn {
+    display: flex;
+    justify-content: end;
+    background: #1F1F1F;
+    color: #D8CFC4;
+}
+form.btn {
+    background: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.about-text {
+    color: #6E2C2C;
+    background: #D8CFC4;
+    padding-left: 15px;
+}
+.para {
+    padding: 20px;
+    margin: 20px;
+}
+.texty {
+    padding: 25px;
+    text-align: justify;
+    margin: 15px;
+    border: none;
+    border-radius: 15px;
+}
+.quote {
+    text-align: center;
+    padding-bottom: 10px;
+}
+.paras {
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    padding: 30px;
+
+}
+.name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    color: #000000;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.contact-form2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    color: #000000;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.feedback {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    color: #000000;
+    margin: 10px;
+}
+.hov {
+     
+    background: #4f77bd;
+    color: #000000;
+    transition: 0.3s;
+    border: #002b6b;
+    border-radius: 5px;
+    width: 70px;
+}
+.hov:hover {
+    background-color: #003898;
+    transform: scale(1.1);
+} 
+
+.art-card {
+    margin-top: 10px;
+    background: #8B6F47;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
+    transition: transform 0.3s ease;
+}
+.art-card:hover {
+    transform: translateY(-5px);
+}
+
+.specialHeaderBtn {
+    background: #A7B0C0;
+    color: #4A6FA5;
+    transition: 0.3s;
+    border: #4A6FA5;
+    border-radius: 5px;
+    width: 20%;
+    height: auto;
+}
+
+.specialHeaderBtn:hover {
+    background-color: #738fbe;
+    transform: scale(1.1);
+}
+
+#specialBtn {
+    background: #6E2C2C;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    padding: 10px;
+}
+
+
+
+.art1 {
+    aspect-ratio: 0.61 / 1;
+    max-width: 300px;
+    margin: 5px;
+}
+.art1-frame img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.art2 {
+    aspect-ratio: 0.61 / 1;
+    max-width: 300px;
+    margin: 5px;
+}
+.art2-frame img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.art3 {
+    aspect-ratio: 23 / 40;
+    max-width: 300px;
+    margin: 5px;
+}
+.art3-frame img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.art4 {
+    max-width: 336px;
+    height: auto;
+    margin: 5px;
+}
+
+.art4-frame img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.art5 {
+    aspect-ratio: 0.61 / 1;
+    max-width: 300px;
+    margin: 5px;
+}
+.art5-frame img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.art6 {
+    aspect-ratio: 0.61 / 1;
+    max-width: 300px;
+    margin: 5px;
+}
+.art6-frame img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.art7 {
+    aspect-ratio: 0.61 / 1;
+    max-width: 300px;
+    margin: 5px;
+}
+.art7-frame img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.art8 {
+    aspect-ratio: 0.61 / 1;
+    max-width: 300px;
+    margin: 5px;
+}
+.art8-frame img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.art9 {
+    aspect-ratio: 0.61 / 1;
+    max-width: 300px;
+    margin: 5px;
+}
+.art9-frame img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.art10 {
+    aspect-ratio: 0.61 / 1;
+    max-width: 300px;
+    margin: 5px;
+}
+.art10-frame img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.art11 {
+    aspect-ratio: 0.61 / 1;
+    max-width: 300px;
+    margin: 5px;
+}
+.art11-frame img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.art12 {
+    aspect-ratio: 0.61 / 1;
+    max-width: 300px;
+    margin: 5px;
+}
+.art12-frame img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.art13 {
+    aspect-ratio: 0.61 / 1;
+    max-width: 300px;
+    margin: 5px;
+}
+.art13-frame img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.art14 {
+    aspect-ratio: 0.61 / 1;
+    max-width: 300px;
+    margin: 5px;
+}
+.art14-frame img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.art15 {
+    aspect-ratio: 0.61 / 1;
+    max-width: 300px;
+    margin: 5px;
+}
+.art15-frame img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.art16 {
+    aspect-ratio: 0.61 / 1;
+    max-width: 300px;
+    margin: 5px;
+}
+.art16-frame img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.art17 {
+    aspect-ratio: 0.61 / 1;
+    max-width: 300px;
+    margin: 5px;
+}
+.art17-frame img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.art18 {
+    aspect-ratio: 0.61 / 1;
+    max-width: 300px;
+    margin: 5px;
+}
+.art18-frame img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.art19 {
+    aspect-ratio: 0.61 / 1;
+    max-width: 300px;
+    margin: 5px;
+}
+.art19-frame img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.art20 {
+    aspect-ratio: 0.61 / 1;
+    max-width: 300px;
+    margin: 5px;
+}
+.art20-frame img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.art21 {
+    aspect-ratio: 0.61 / 1;
+    max-width: 300px;
+    margin: 5px;
+}
+.art21-frame img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.art22 {
+    aspect-ratio: 0.61 / 1;
+    max-width: 300px;
+    margin: 5px;
+}
+.art22-frame img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
